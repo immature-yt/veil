@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { useAuth } from "@/components/AuthProvider";
 import { CountdownTimer } from "@/components/CountdownTimer";
-import { VeilLogo } from "../page";
+import { VeilLogo } from "@/components/VeilLogo";
 import { Suspense } from "react";
 
 interface Message {

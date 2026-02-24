@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/components/AuthProvider";
 import { CountdownTimer } from "@/components/CountdownTimer";
+import { VeilLogo } from "@/components/VeilLogo";
 
 interface MatchData {
   id: string;

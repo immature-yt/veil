@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { useAuth } from "@/components/AuthProvider";
-import { VeilLogo } from "../page";
+import { VeilLogo } from "@/components/VeilLogo";
 
 export default function LoginPage() {
   const { login, register } = useAuth();
