@@ -1,7 +1,7 @@
 // src/app/api/match/route.ts
 // GET  /api/match  — Fetch the current user's active match for today
 // POST /api/match  — Admin/cron trigger to run the daily matchmaking (called at 10 AM)
-
+export const dynamic = "force-dynamic";
 import { NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getAuthUser } from "@/lib/auth";

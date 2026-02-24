@@ -2,7 +2,7 @@
 // POST /api/auth/login
 // Body: { email, password }
 // Returns: { token, user }
-
+export const dynamic = "force-dynamic";
 import { NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { signToken } from "@/lib/auth";

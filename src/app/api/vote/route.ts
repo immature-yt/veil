@@ -2,7 +2,7 @@
 // POST /api/vote
 // Body: { matchId, vote: true | false }
 // Resolves the match if both users have voted.
-
+export const dynamic = "force-dynamic";
 import { NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getAuthUser } from "@/lib/auth";

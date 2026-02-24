@@ -2,7 +2,7 @@
 // GET /api/auth/me
 // Returns the authenticated user's profile.
 // Headers: Authorization: Bearer <token>  OR Cookie: veil_token=<token>
-
+export const dynamic = "force-dynamic";
 import { NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { getAuthUser } from "@/lib/auth";
